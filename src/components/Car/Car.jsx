@@ -6,8 +6,8 @@ const Car = (props) => {
     props.onCarClick(2);
   };
 
-  // return <p onClick={() => props.onCarClick(2)}>I am the {"<Car />"}</p>;
-  return <p onClick={onClick()}>I am the {"<Car />"}</p>;
+  //return <p onClick={() => props.onCarClick(2)}>I am the {"<Car />"}</p>;
+  return <p onClick={onClick}>I am the {"<Car />"}</p>;
 };
 
 export default Car;
